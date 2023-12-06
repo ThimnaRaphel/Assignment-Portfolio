@@ -1,0 +1,261 @@
+.container{
+   width: 100%;
+}
+
+.head-body{
+    text-align: center;
+    height: 20%;
+    color:black;
+    text-size-adjust: 70px;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.middlenav{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+nav{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style for horizontal list items */
+  li {
+    display: inline-block;
+    margin-right: 10px; /* Add some spacing between list items */
+  }
+  .body{
+    width: 100%;
+    color:rgb(21, 34, 34);
+  }
+
+  .about{
+    margin-left: 20px;
+  }
+
+  .about-body{
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:rgb(85, 136, 179);
+    border-radius: 10px;
+    border-style: groove;
+    border:rgb(85, 136, 179);
+  }
+
+  .Education{
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-style: groove;
+    background-color:rgb(85, 136, 179);
+    border:rgb(85, 136, 179);
+    text-align: center;
+  }
+
+  .work1{
+    display: flex;
+}
+
+.year1{
+    width: 100%;
+    flex: 1;
+}
+
+.first-uty{
+    flex: 2;
+    width: 100%;
+    align-items: right;
+}
+
+.work2{
+    display: flex;
+    height: 100px;
+    margin-top: 85px;
+}
+
+.year2{
+    width: 100%;
+    flex: 1;
+}
+
+.second-uty{
+    flex: 2;
+    width: 100%;
+    align-items: right;
+}
+
+.work3{
+    display: flex;
+    height: 170px;
+    margin-top: 20px;
+}
+
+.year3{
+    width: 100%;
+    flex: 1;
+}
+
+.third-uty{
+    flex: 2;
+    width: 100%;
+    align-items: right;
+}
+
+.projects{
+    background-position: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-style: groove;
+    background-color:rgb(85, 136, 179);
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+.volunteering{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.volunteering1{
+    flex: 1;
+}
+
+.date{
+    flex: 1;
+    align-items: right;
+}
+
+.skill-div{
+    height: 70%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.set1{
+    display: flex;
+}
+.set1-1{
+    flex: 2;
+    padding-left: 200px;
+}
+
+.set1-2{
+    flex: 1;
+}
+.set2{
+    display: flex;
+}
+.set2-1{
+    flex: 2;
+    padding-left: 200px;
+}
+.set2-2{
+    flex: 1;
+}
+.set3{
+    display: flex;
+}
+.set3-1{
+    flex: 2;
+    padding-left: 200px;
+}
+.set3-2{
+    flex: 1;
+}
+
+.contact{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.phone{
+    flex: 1;
+}
+
+.email{
+    flex: 1;
+}
+
+.linkedin{
+    flex: 1;
+}
+
+  button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }
+
+  /* Change background color on hover */
+  button:hover {
+    background-color: #2980b9;
+  }
+.topnav{
+    overflow: hidden;
+    background-color: #fff;
+    margin-left:200px;
+    margin-top:10px;
+}
+
+.topnav a{
+    float: left;
+    color:brown;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px; 
+}
+
+.topnav a:hover{
+    color:cornflowerblue;  
+}
+
+.topnav a.active{
+    color:darksalmon;
+}
